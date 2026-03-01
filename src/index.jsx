@@ -1,6 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import SeriøsDating from './serios-dating.jsx';
 
-const App = () => <h1>Welcome to Seri's Dating App!</h1>;
+const App = () => {
+    return (
+        <div>
+            <SeriøsDating />
+        </div>
+    );
+};
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export default App;
